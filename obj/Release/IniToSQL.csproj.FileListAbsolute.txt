@@ -1,0 +1,10 @@
+C:\Users\mohamed\Documents\Visual Studio 2012\Projects\IniToSQL\bin\Release\IniToSQL.exe.config
+C:\Users\mohamed\Documents\Visual Studio 2012\Projects\IniToSQL\bin\Release\IniToSQL.exe
+C:\Users\mohamed\Documents\Visual Studio 2012\Projects\IniToSQL\bin\Release\IniToSQL.pdb
+C:\Users\mohamed\Documents\Visual Studio 2012\Projects\IniToSQL\obj\Release\IniToSQL.Form1.resources
+C:\Users\mohamed\Documents\Visual Studio 2012\Projects\IniToSQL\obj\Release\IniToSQL.Properties.Resources.resources
+C:\Users\mohamed\Documents\Visual Studio 2012\Projects\IniToSQL\obj\Release\IniToSQL.csproj.GenerateResource.Cache
+C:\Users\mohamed\Documents\Visual Studio 2012\Projects\IniToSQL\obj\Release\IniToSQL.exe
+C:\Users\mohamed\Documents\Visual Studio 2012\Projects\IniToSQL\obj\Release\IniToSQL.pdb
+C:\Users\mohamed\Documents\Visual Studio 2012\Projects\IniToSQL\obj\Release\IniToSQL.notification.resources
+C:\Users\mohamed\Documents\Visual Studio 2012\Projects\IniToSQL\obj\Release\IniToSQL.csprojResolveAssemblyReference.cache

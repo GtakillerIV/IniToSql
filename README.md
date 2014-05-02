@@ -58,12 +58,3 @@ So I've decided to create this app to help all those people out there that want 
 <p><strong>Optional</strong><br />
 If you don't want to ignore duplicate errors upon executing your MySQL query, untick "Ignore duplicate errors".<br />
 If your file doesn't contain the player's username, then untick "File contains username" and enter in a column name for your usernames.</p>
-
-<p><span style="font-size: 14ptpx;"><span style="color: orange;">Bugs</span></span></p>
-
-<p>None currently.<br />
-I'm not the best programmer in the world so there might be a few bugs here and there ;)</p>
-
-<p><span style="font-size: 14ptpx;"><span style="color: orange;">Download</span></span></p>
-
-<p><a href="https://github.com/GtakillerIV/IniToSql">Github</a></p>

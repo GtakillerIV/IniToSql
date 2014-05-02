@@ -10,15 +10,7 @@ So I've decided to create this app to help all those people out there that want 
 
 <p>It's a .ini to MySQL converter that'll convert all of your .ini files to multiple MySQL INSERT queries.</p>
 
-<p><span style="font-size: 14ptpx;"><span style="color: orange;">There's already one!</span></span></p>
-
-<p>Yes, I'm fully aware that there is one that is made by <a href="http://forum.sa-mp.com/member.php?u=79895">gamer931215</a> found <a href="http://forum.sa-mp.com/showthread.php?t=245893">here</a>.</p>
-
-<p>Why didn't I use it you might say?</p>
-
-<p>Because it always crashed/froze when I loaded huge amount of files to it! And sometimes it didn't even work at all.</p>
-
-<p><span style="font-size: 14ptpx;"><span style="color: orange;">What do I bring to the table?</span></span></p>
+<p><span style="font-size: 14ptpx;"><span style="color: orange;">What does it bring to the table?</span></span></p>
 
 <p>My program can take huge amounts of files and convert them(the whole purpose of me creating it), and not only that; I also validate the files(of course it's not gonna remove all the invalid files, but should exclude most!).</p>
 

@@ -1,4 +1,4 @@
-﻿/*
+/*
                         ██╗███╗   ██╗██╗     ██╗  ███████╗ ██████╗ ██╗     
                         ██║████╗  ██║██║     ╚██╗ ██╔════╝██╔═══██╗██║     
                         ██║██╔██╗ ██║██║█████╗╚██╗███████╗██║   ██║██║     
@@ -51,12 +51,12 @@ namespace IniToSQL
     {
         string query;
         public const int MAX_INSERTS = 270;
-        int count = 0;
         bool containsSpaces = false;
 
         ArrayList columns = new ArrayList();
         int accCount;
 
+        notification noti = new notification();
 
         DirectoryInfo di;
 
@@ -142,7 +142,7 @@ namespace IniToSQL
         {
             Stopwatch stopWatch = new Stopwatch();
             stopWatch.Start();
-
+            int count = 0;
             bool containsUsername = true, addedUsername = false, dontWrite = false;
             this.Invoke(new MethodInvoker(delegate
             {
@@ -295,26 +295,35 @@ namespace IniToSQL
                 accsDone++;
                 dontWrite = false;
                 addedUsername = false;
-                this.Invoke(new MethodInvoker(delegate { label5.Text = accsDone + "/" + accCount + " Files done"; }));
                 perc = (float)accsDone / (float)accCount * 100;
-                this.Invoke(new MethodInvoker(delegate { progressBar1.Value = (int)Math.Ceiling(perc); }));
+                this.Invoke(new MethodInvoker(delegate
+                {
+                    label5.Text = accsDone + "/" + accCount + " Files done";
+                    progressBar1.Value = (int)Math.Ceiling(perc);
+                
+                }));
+               
             }
+            
             file.Close();
-
+            
             stopWatch.Stop();
 
             this.Invoke(new MethodInvoker(delegate
                 {
 
-                    notification noti = new notification();
+                    
                     int width = Screen.PrimaryScreen.WorkingArea.Right;
                     int height = Screen.PrimaryScreen.WorkingArea.Height;
 
                     if (backgroundWorker1.CancellationPending) noti.label2.Text = "Conversion of accounts was interrupted!";
                     else noti.label2.Text = "Conversion of accounts has finished successfully!";
 
-                    noti.Location = new Point(width - noti.Size.Width, height - noti.Size.Height);
-                    noti.Show();
+                    if (!noti.Visible)
+                    {
+                        noti.Location = new Point(width - noti.Size.Width, height - noti.Size.Height);
+                        noti.Show();
+                    }
 
                     button1.Enabled = true;
                     button2.Enabled = false;

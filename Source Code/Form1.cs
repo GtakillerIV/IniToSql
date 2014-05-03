@@ -1,4 +1,4 @@
-﻿/*
+/*
                         ██╗███╗   ██╗██╗     ██╗  ███████╗ ██████╗ ██╗     
                         ██║████╗  ██║██║     ╚██╗ ██╔════╝██╔═══██╗██║     
                         ██║██╔██╗ ██║██║█████╗╚██╗███████╗██║   ██║██║     
@@ -295,9 +295,14 @@ namespace IniToSQL
                 accsDone++;
                 dontWrite = false;
                 addedUsername = false;
-                this.Invoke(new MethodInvoker(delegate { label5.Text = accsDone + "/" + accCount + " Files done"; }));
                 perc = (float)accsDone / (float)accCount * 100;
-                this.Invoke(new MethodInvoker(delegate { progressBar1.Value = (int)Math.Ceiling(perc); }));
+                this.Invoke(new MethodInvoker(delegate
+                {
+                    label5.Text = accsDone + "/" + accCount + " Files done";
+                    progressBar1.Value = (int)Math.Ceiling(perc);
+                
+                }));
+               
             }
             file.Close();
 

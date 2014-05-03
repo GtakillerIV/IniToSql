@@ -1,18 +1,32 @@
-﻿/*
+/*
                         ██╗███╗   ██╗██╗     ██╗  ███████╗ ██████╗ ██╗     
                         ██║████╗  ██║██║     ╚██╗ ██╔════╝██╔═══██╗██║     
                         ██║██╔██╗ ██║██║█████╗╚██╗███████╗██║   ██║██║     
                         ██║██║╚██╗██║██║╚════╝██╔╝╚════██║██║▄▄ ██║██║     
                         ██║██║ ╚████║██║     ██╔╝ ███████║╚██████╔╝███████╗
                         ╚═╝╚═╝  ╚═══╝╚═╝     ╚═╝  ╚══════╝ ╚══▀▀═╝ ╚══════╝
- *                                  Created by GtakillerIV
- *          You're not allowed to redistribute this source code without my permission.
- *          Don't claim this program/source code as yours.
- *          You're free to use some of my source code but aslong as you give credits.
- *          Don't remove credits.
- *          Other than that, have fun!
- *          
- *          © GtakillerIV 2014
+                                 
+                    The MIT License (MIT)
+
+                    Copyright (c) 2014 GtakillerIV
+
+                    Permission is hereby granted, free of charge, to any person obtaining a copy
+                    of this software and associated documentation files (the "Software"), to deal
+                    in the Software without restriction, including without limitation the rights
+                    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+                    copies of the Software, and to permit persons to whom the Software is
+                    furnished to do so, subject to the following conditions:
+
+                    The above copyright notice and this permission notice shall be included in all
+                    copies or substantial portions of the Software.
+
+                    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+                    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+                    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+                    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+                    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+                    SOFTWARE.
                                                    
 */
 
@@ -71,6 +85,7 @@ namespace IniToSQL
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label6 = new System.Windows.Forms.Label();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // TXTBX_Directory
@@ -317,6 +332,22 @@ namespace IniToSQL
             this.label6.Size = new System.Drawing.Size(0, 13);
             this.label6.TabIndex = 19;
             // 
+            // linkLabel2
+            // 
+            this.linkLabel2.ActiveLinkColor = System.Drawing.Color.OrangeRed;
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
+            this.linkLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
+            this.linkLabel2.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.linkLabel2.LinkColor = System.Drawing.SystemColors.ControlLight;
+            this.linkLabel2.Location = new System.Drawing.Point(404, 6);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(28, 13);
+            this.linkLabel2.TabIndex = 18;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "v1.0";
+            this.linkLabel2.VisitedLinkColor = System.Drawing.SystemColors.ControlLight;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -325,6 +356,7 @@ namespace IniToSQL
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(439, 632);
             this.Controls.Add(this.label6);
+            this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBox2);
@@ -386,6 +418,7 @@ namespace IniToSQL
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.LinkLabel linkLabel2;
     }
 }
 

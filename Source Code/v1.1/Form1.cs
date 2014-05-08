@@ -119,10 +119,9 @@ namespace IniToSQL
                         }
                         studiedAcc = true;
                     }
-                    perc = (float)accsDone/(float)accCount * 100;
-                    this.Invoke(new MethodInvoker(delegate { progressBar1.Value = (int)Math.Ceiling(perc); }));
+                    
 
-                    if (listBox1.Items.Count < 21)
+                    if (accsDone < 21)
                     {
                         listBox1.Items.Add(fi.Name);
                     }
@@ -135,7 +134,9 @@ namespace IniToSQL
                         this.Invoke(new MethodInvoker(delegate { progressBar1.Value = 100; }));
                         break;
                     }
-                    accsDone++;                    
+                    accsDone++;
+                    perc = (float)accsDone / (float)accCount * 100;
+                    this.Invoke(new MethodInvoker(delegate { progressBar1.Value = (int)Math.Ceiling(perc); }));
                 }
                 label2.Text = columnsCount + " columns Found";
                 button1.Enabled = true;

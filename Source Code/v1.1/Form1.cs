@@ -1,4 +1,4 @@
-﻿/*
+/*
                         ██╗███╗   ██╗██╗     ██╗  ███████╗ ██████╗ ██╗     
                         ██║████╗  ██║██║     ╚██╗ ██╔════╝██╔═══██╗██║     
                         ██║██╔██╗ ██║██║█████╗╚██╗███████╗██║   ██║██║     
@@ -87,7 +87,6 @@ namespace IniToSQL
                 columns.Clear();
                 int accsDone = 0;
                 float perc = 0.0f;
-                bool addedFinalItem = false;
                 int columnsCount = 0;
 
                 bool checkedSpaces = false, studiedAcc = false;
@@ -127,10 +126,14 @@ namespace IniToSQL
                     {
                         listBox1.Items.Add(fi.Name);
                     }
-                    else if(!addedFinalItem)
+                    else
                     {
+                        //Why continue if there's really nothing else left to do?
+                        //Waste of time + resources
                         listBox1.Items.Add("+" + (accCount-20) + " more");
-                        addedFinalItem = true;
+                        accsDone = accCount;
+                        this.Invoke(new MethodInvoker(delegate { progressBar1.Value = 100; }));
+                        break;
                     }
                     accsDone++;                    
                 }

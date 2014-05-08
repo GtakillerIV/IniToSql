@@ -267,7 +267,7 @@ namespace IniToSQL
                         {
                             if (!containsUsername && !addedUsername)
                             {
-                                Format = string.Format("\"{0}\"", Path.GetFileNameWithoutExtension(fi.Name));
+                                Format = string.Format("\"{0}\"", Regex.Escape(Path.GetFileNameWithoutExtension(fi.Name)));
                                 Finalquery += Format + ",";
                                 addedUsername = true;
                             }

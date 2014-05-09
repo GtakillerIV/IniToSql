@@ -7,8 +7,6 @@ is a program designed to convert .INI files to SQL Insert Queries.</span></font>
 <p style="margin-bottom: 0in"><font color="#000000"><font face="serif"><span lang="en-US">It
 was designed to help people that wanted to switch to MySQL but
 converting their files was the problem.</span></font></font></p>
-<p style="margin-bottom: 0in"><font color="#e36c0a"><font face="serif"><font size="5"><span lang="en-US"><u>Download</u></span></font></font></font></p>
-<p style="margin-bottom: 0in"><font color="#000000"><font face="serif"><span lang="en-US">Github</span></font></font></p>
 <p style="margin-bottom: 0in"><font color="#e36c0a"> </font><font color="#e36c0a"><font face="serif"><font size="5"><span lang="en-US"><u>Features</u></span></font></font></font></p>
 <p style="margin-bottom: 0in"><font color="#244061"><font face="serif"><font size="2"><span lang="en-US">v1.0</span></font></font></font></p>
 <ul>

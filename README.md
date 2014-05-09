@@ -1,28 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<!-- saved from url=(0062)http://dw4.convertfiles.com/files/0580369001399639641/ini.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
-	
-	<title></title>
-	<meta name="GENERATOR" content="OpenOffice.org 3.3  (FreeBSD/amd64)">
-	<meta name="AUTHOR" content="mohamed elnag">
-	<meta name="CREATED" content="20140508;10560000">
-	<meta name="CHANGEDBY" content="mohamed elnag">
-	<meta name="CHANGED" content="20140509;12460000">
-	<meta name="AppVersion" content="14.0000">
-	<meta name="DocSecurity" content="0">
-	<meta name="HyperlinksChanged" content="false">
-	<meta name="LinksUpToDate" content="false">
-	<meta name="ScaleCrop" content="false">
-	<meta name="ShareDoc" content="false">
-	<style type="text/css">
-	<!--
-		@page { size: 8.27in 11.69in; margin: 1in }
-		P { margin-bottom: 0.08in; direction: ltr; color: #000000; widows: 2; orphans: 2 }
-	-->
-	</style>
-<style type="text/css"></style></head>
-<body lang="en-US" text="#000000" dir="LTR">
-<p align="CENTER" style="margin-bottom: 0in"><font color="#c0504d"><font size="7" style="font-size: 48pt"><span lang="en-US">Ini</span></font></font><font color="#0d0d0d"><font size="7" style="font-size: 48pt"><span lang="en-US">-&gt;</span></font></font><font color="#0070c0"><font size="7" style="font-size: 48pt"><span lang="en-US">Sql</span></font></font></p>
+
+<img src="http://i1270.photobucket.com/albums/jj602/gtakilleriv/ini2sql.png">
 <p align="CENTER" style="margin-bottom: 0in"><font size="2" style="font-size: 9pt"><span lang="en-US">v1.2</span></font></p>
 <p style="margin-bottom: 0in"><font color="#e36c0a"><font face="serif"><font size="5"><span lang="en-US"><u>Introduction</u></span></font></font></font></p>
 <p style="margin-bottom: 0in"><font color="#000000"><font face="serif"><span lang="en-US">Ini-&gt;Sql
@@ -117,5 +94,3 @@ in v1.2</span></font></font></p>
 </b></span></font></font><font color="#000000"><font face="serif"><span lang="en-US">The
 first .INI file in your folder must be fully correct and valid
 because my program uses it as a reference.</span></font></font></p>
-
-</body></html>

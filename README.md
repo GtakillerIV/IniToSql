@@ -17,8 +17,7 @@ converting their files was the problem.</span></font></font></p>
 	</li><li><p style="margin-bottom: 0in"><font color="#000000"><font face="serif"><span lang="en-US">If
 	a file has missing columns, you can tell the program to skip them. </span></font></font>
 	</p>
-	</li><li><p style="margin-bottom: 0in"><font color="#000000"><font face="serif"><span lang="en-US">It can get sections from the .INI file and create a new
-	column for it.</span></font></font></p>
+	</li><li><p style="margin-bottom: 0in"><font color="#000000"><font face="serif"><span lang="en-US">It creates a column for each section in your .INI file </span></font></font></p>
 	</li><li><p style="margin-bottom: 0in"><font color="#000000"><font face="serif"><span lang="en-US">Progress
 	bar that updates you on the program’s status.</span></font></font></p>
 </li></ul>

@@ -1,0 +1,16 @@
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\bin\Release\IniToSQL.exe.config
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\obj\Release\IniToSQL.Form1.resources
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\obj\Release\IniToSQL.notification.resources
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\obj\Release\IniToSQL.Properties.Resources.resources
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\obj\Release\IniToSQL.csproj.GenerateResource.Cache
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\bin\Release\IniToSQL.exe.manifest
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\bin\Release\IniToSQL.application
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\bin\Release\IniToSQL.exe
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\bin\Release\IniToSQL.pdb
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\bin\Release\MySql.Data.dll
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\obj\Release\IniToSQL.TrustInfo.xml
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\obj\Release\IniToSQL.exe.manifest
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\obj\Release\IniToSQL.application
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\obj\Release\IniToSQL.exe
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\obj\Release\IniToSQL.pdb
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\obj\Release\IniToSQL.csprojResolveAssemblyReference.cache

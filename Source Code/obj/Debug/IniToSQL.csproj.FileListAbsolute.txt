@@ -1,0 +1,16 @@
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\bin\Debug\IniToSQL.exe.config
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\obj\Debug\IniToSQL.csprojResolveAssemblyReference.cache
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\obj\Debug\IniToSQL.Form1.resources
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\obj\Debug\IniToSQL.notification.resources
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\obj\Debug\IniToSQL.Properties.Resources.resources
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\obj\Debug\IniToSQL.csproj.GenerateResource.Cache
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\bin\Debug\IniToSQL.exe.manifest
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\bin\Debug\IniToSQL.application
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\bin\Debug\IniToSQL.exe
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\bin\Debug\IniToSQL.pdb
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\bin\Debug\MySql.Data.dll
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\obj\Debug\IniToSQL.TrustInfo.xml
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\obj\Debug\IniToSQL.exe.manifest
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\obj\Debug\IniToSQL.application
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\obj\Debug\IniToSQL.exe
+C:\Users\mohamed\Documents\GitHub\IniToSql\Source Code\obj\Debug\IniToSQL.pdb

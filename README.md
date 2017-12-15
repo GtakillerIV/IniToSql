@@ -1,5 +1,5 @@
 
-<img src="http://i1270.photobucket.com/albums/jj602/gtakilleriv/ini2sql.png">
+<img src="https://i.imgur.com/nohTytC.png">
 <p align="CENTER" style="margin-bottom: 0in"><font size="2" style="font-size: 9pt"><span lang="en-US">v1.2</span></font></p>
 <p style="margin-bottom: 0in"><font color="#e36c0a"><font face="serif"><font size="5"><span lang="en-US"><u>Introduction</u></span></font></font></font></p>
 <p style="margin-bottom: 0in"><font color="#000000"><font face="serif"><span lang="en-US">Ini-&gt;Sql
